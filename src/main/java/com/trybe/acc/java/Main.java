@@ -1,12 +1,13 @@
 package com.trybe.acc.java;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 /** Método inicial. */
 public class Main {
   /** Método inicial. */
   public static void main(String[] args) {
-    Scanner scan = new Scanner(System.in);
+    Scanner scan = new Scanner(System.in).useLocale(Locale.US);
     try {
       System.out.println("\n");
       System.out.println("Qual é o seu nome?");
