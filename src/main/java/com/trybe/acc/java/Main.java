@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 /** Método inicial. */
 public class Main {
+  /** Método inicial. */
   public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
     try {
